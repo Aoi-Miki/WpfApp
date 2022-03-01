@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="AppVerLabel" Content="AppVersion" FontSize="50" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" />
+        <Label x:Name="PkgVerLabel" Content="PkgVersion" FontSize="50" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" />
+        <Button x:Name="UpdateButton" Content="更新チェック" Click="UpdateButton_Click" HorizontalAlignment="Center" Margin="0,300,400,0" VerticalAlignment="Center" Width="100" Height="40" />
+        <Button x:Name="LaunchStoreApp" Content="ストア起動&#xD;&#xA;（アプリ）" Click="LaunchStoreApp_Click" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Center" Width="100" Height="40" />
+        <Button x:Name="LaunchStoreBrs" Content="ストア起動&#xD;&#xA;（ブラウザ）" Click="LaunchStoreBrw_Click" HorizontalAlignment="Center" Margin="400,300,0,0" VerticalAlignment="Center" Width="100" Height="40" />
+    </Grid>
+</Window>
