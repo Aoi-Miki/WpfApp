@@ -50,7 +50,7 @@ namespace App.Service
             }
             catch
             {
-                MessageBox.Show("アップデート失敗");
+                MessageBox.Show("更新チェック失敗");
                 return new List<StorePackageUpdate>().AsReadOnly();
             }
         }

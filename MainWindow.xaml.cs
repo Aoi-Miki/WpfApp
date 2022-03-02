@@ -51,12 +51,12 @@ namespace WpfApp1
 
         private async void LaunchStoreApp_Click(object sender, RoutedEventArgs e)
         {
-            await LaunchService.Execute("ms-windows-store://home/");
+            await LaunchService.Execute("ms-windows-store://pdp/?productid=9N1B1DNDQSB1");
         }
 
         private async void LaunchStoreBrw_Click(object sender, RoutedEventArgs e)
         {
-            await LaunchService.Execute("https://www.microsoft.com/ja-jp/store/b/sale/");
+            await LaunchService.Execute("https://www.microsoft.com/store/apps/9N1B1DNDQSB1");
         }
     }
 }
